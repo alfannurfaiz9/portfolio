@@ -63,7 +63,7 @@ export const PROJECTS = [
     tags: ["React", "Go", "PostgreSQL", "Redis"],
     modal: {
       title: "Eventhub — Ticketing & Event Management Platform",
-      category: "Fullstack System",
+      category: "Solo Project | Fullstack",
       imgUrl: "eventhub-thumbnail.png",
       description:
         "End-to-end event discovery and ticket procurement architecture handling transactional order states and concurrent database updates.",
@@ -73,7 +73,7 @@ export const PROJECTS = [
         "Responsive React client with localized Redux state management",
         "Isolated container orchestration with Docker and Nginx",
       ],
-      demo: "https://github.com/alfannurfaiz9/shortlink_frontend",
+      demo: "https://github.com/alfannurfaiz9/eventhub",
       repo: "https://github.com/alfannurfaiz9/eventhub-backend",
     },
   },
@@ -88,7 +88,7 @@ export const PROJECTS = [
     tags: ["React", "Go", "PostgreSQL", "Redis"],
     modal: {
       title: "URL Shortener & Click Analytics Engine",
-      category: "Backend Microservice",
+      category: "Solo Project | Fullstack",
       imgUrl: "shortlink-thumbnail.png",
       description:
         "High-throughput redirection microservice with Redis in-memory storage, IP rate-limiting, and metric logging.",
@@ -113,7 +113,7 @@ export const PROJECTS = [
     tags: ["React", "Go", "PostgreSQL", "Xendit API"],
     modal: {
       title: "E-Wallet — Digital Payment & Transaction Platform",
-      category: "Fullstack Application",
+      category: "Solo Project | Fullstack",
       imgUrl: "ewallet-thumbnail.png",
       description:
         "Comprehensive financial web platform enabling secure user authentication, digital balance top-ups via Xendit Payment Gateway.",
