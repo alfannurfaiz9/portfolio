@@ -1,16 +1,28 @@
-# React + Vite
+# Alfan Nurfaiz — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website of **Alfan Nurfaiz**, Fullstack Developer specializing in **Go** and **React**. Built with a minimalist dark theme, monospace accents, and a single emerald highlight color.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Single-page layout** with smooth scrolling between sections: Hero, About, Tech Stack, Projects, Experience, and Contact
+- **Project filter** (all / fullstack / frontend) and a **detail modal** for each project
+- **Contact form** that opens a pre-filled Gmail compose window in a new tab
+- **Copy-to-clipboard** email button with toast notification
+- **Responsive** navigation with a mobile menu
+- **Dark theme** with custom Tailwind design tokens (colors and fonts)
+- Data-driven sections: projects, experience, and tech stack are plain arrays, so they are easy to edit
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Area      | Tools                                                              |
+| --------- | ------------------------------------------------------------------ |
+| Framework | [React](https://react.dev/) + [Vite](https://vitejs.dev/)          |
+| Styling   | [Tailwind CSS v3](https://tailwindcss.com/)                        |
+| Icons     | [react-icons](https://react-icons.github.io/react-icons/)          |
+| Fonts     | [Inter](https://fonts.google.com/specimen/Inter) and [JetBrains Mono](https://www.jetbrains.com/lp/mono/) via Google Fonts |
 
-## Expanding the ESLint configuration
+### Contact form behavior
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Submitting the form opens a pre-filled Gmail compose window in a new tab (`mail.google.com/mail/?view=cm`) addressed to `EMAIL`. The visitor still has to press **Send** in Gmail. No backend is required, and no message is stored by the site.
+
+Built by [Alfan Nurfaiz](https://github.com/alfannurfaiz9).
