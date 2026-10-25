@@ -118,7 +118,6 @@ export const PROJECTS = [
       description:
         "Comprehensive financial web platform enabling secure user authentication, digital balance top-ups via Xendit Payment Gateway.",
       highlights: [
-        "Built fullstack architecture with React.js frontend, Tailwind CSS, and Go (Golang) REST API",
         "Integrated Xendit Payment Gateway API for seamless balance top-ups and payment processing",
         "Implemented automated SMTP email service for secure password reset and verification workflows",
         "Designed JWT authentication and PostgreSQL backend for reliable ledger management and transaction history",
