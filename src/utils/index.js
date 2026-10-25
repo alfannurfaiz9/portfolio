@@ -116,7 +116,7 @@ export const PROJECTS = [
       category: "Fullstack Application",
       imgUrl: "ewallet-thumbnail.png",
       description:
-        "Comprehensive financial web platform enabling secure user authentication, digital balance top-ups via Xendit Payment Gateway, automated SMTP-based password recovery, and real-time transaction tracking.",
+        "Comprehensive financial web platform enabling secure user authentication, digital balance top-ups via Xendit Payment Gateway.",
       highlights: [
         "Built fullstack architecture with React.js frontend, Tailwind CSS, and Go (Golang) REST API",
         "Integrated Xendit Payment Gateway API for seamless balance top-ups and payment processing",
