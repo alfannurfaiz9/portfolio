@@ -1,4 +1,5 @@
-import { ABOUT_STACK, PRINCIPLES } from "../utils";
+import { PRINCIPLES } from "../utils";
+import Marquee from "./Marquee";
 import SectionTitle from "./SectionTitle";
 
 const About = () => {
@@ -18,24 +19,10 @@ const About = () => {
             products.
           </p>
           <p>
-            With over 1 years of hands-on experience in fullstack web
+            With over 2 years of hands-on experience in fullstack web
             development, I bridge backend database performance with accessible,
             intuitive frontend interactions. I prefer simple, testable solutions
             over over-engineered complexity.
-          </p>
-          <p>
-            {ABOUT_STACK.map((s, i) => (
-              <span key={s}>
-                <span className="text-textBright font-mono text-xs bg-surface px-1.5 py-0.5 rounded border border-borderColor">
-                  {s}
-                </span>
-                {i < ABOUT_STACK.length - 2
-                  ? ", "
-                  : i === ABOUT_STACK.length - 2
-                    ? ", and "
-                    : "."}
-              </span>
-            ))}
           </p>
         </div>
 
@@ -53,6 +40,7 @@ const About = () => {
           </ul>
         </div>
       </div>
+      <Marquee />
     </section>
   );
 };
