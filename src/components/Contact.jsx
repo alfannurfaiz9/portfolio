@@ -37,7 +37,7 @@ const Contact = ({ onSent }) => {
       id="contact"
       className="space-y-6 pt-6 border-t border-borderColor"
     >
-      <SectionTitle num="05.">Contact</SectionTitle>
+      <SectionTitle num="06.">Contact</SectionTitle>
 
       <div className="grid md:grid-cols-2 gap-8 items-start">
         <div className="space-y-4">

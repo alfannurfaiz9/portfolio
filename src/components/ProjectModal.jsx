@@ -7,7 +7,7 @@ const ProjectModal = ({ project, onClose }) => {
       <div className="bg-surface w-full max-w-xl rounded border border-borderColor p-6 relative space-y-5 font-mono text-xs shadow-2xl">
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 p-1 rounded text-subtext hover:text-textBright hover:bg-bgDark transition-colors"
+          className="absolute cursor-pointer top-4 right-4 p-1 rounded text-subtext hover:text-textBright hover:bg-bgDark transition-colors"
         >
           X
         </button>

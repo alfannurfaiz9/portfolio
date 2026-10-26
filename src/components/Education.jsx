@@ -4,7 +4,7 @@ import SectionTitle from "./SectionTitle";
 const Education = () => {
   return (
     <section
-      id="experience"
+      id="education"
       className="space-y-6 pt-6 border-t border-borderColor"
     >
       <SectionTitle num="05.">Education</SectionTitle>

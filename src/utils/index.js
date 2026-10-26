@@ -2,8 +2,9 @@ export const NAV_LINKS = [
   { href: "#about", num: "01.", label: "about" },
   { href: "#techstack", num: "02.", label: "stack" },
   { href: "#projects", num: "03.", label: "projects" },
-  { href: "#experience", num: "04.", label: "exp" },
-  { href: "#contact", num: "05.", label: "contact" },
+  { href: "#experience", num: "04.", label: "experience" },
+  { href: "#education", num: "05.", label: "education" },
+  { href: "#contact", num: "06.", label: "contact" },
 ];
 
 export const PRINCIPLES = [
@@ -113,7 +114,7 @@ export const PROJECTS = [
     tags: ["React", "Go", "PostgreSQL", "Xendit API"],
     modal: {
       title: "E-Wallet — Digital Payment & Transaction Platform",
-      category: "Solo Project | Fullstack",
+      category: "Team Project | Fullstack",
       imgUrl: "ewallet-thumbnail.png",
       description:
         "Comprehensive financial web platform enabling secure user authentication, digital balance top-ups via Xendit Payment Gateway.",

@@ -31,7 +31,7 @@ const ProjectCard = ({ project, onOpen }) => {
         <div className="flex items-center justify-between font-mono text-xs border-t border-borderColor pt-3">
           <button
             onClick={() => onOpen(project.key)}
-            className="text-textBright hover:text-accent transition-colors flex items-center gap-1"
+            className="text-textBright cursor-pointer hover:text-accent transition-colors flex items-center gap-1"
           >
             Details
           </button>
