@@ -15,14 +15,15 @@ const About = () => {
         />
         <div className="md:col-span-2 space-y-4 lg:w-6/12 text-sm text-subtext leading-relaxed">
           <p className="text-textBright text-base font-medium">
-            Focused on writing maintainable code and building efficient web
-            products.
+            Results driven Fullstack Developer with a unique background
+            transitioning from Digital Marketing.
           </p>
           <p>
-            With over 2 years of hands-on experience in fullstack web
-            development, I bridge backend database performance with accessible,
-            intuitive frontend interactions. I prefer simple, testable solutions
-            over over-engineered complexity.
+            Experienced in building and scaling modern web applications from the
+            ground up, combining sharp business acumen with strong technical
+            execution. Adept at crafting intuitive user interfaces with React
+            and architecting high-throughput backend services using Golang, Gin,
+            and PostgreSQL.
           </p>
         </div>
 
